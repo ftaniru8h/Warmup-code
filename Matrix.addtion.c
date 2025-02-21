@@ -14,7 +14,7 @@ int main()
   if(row1==row2&&col1==col2){
   for(i=0;i<row1;i++){
       printf("enter the row %d \n",i);
-  for(j=0;j<row1;j++){
+  for(j=0;j<col1;j++){
     printf("enter the element \n");
     scanf("%d",&mat1[i][j]);
   }
@@ -22,7 +22,7 @@ int main()
   printf("matrix 2 \n");
   for(i=0;i<row2;i++){
       printf("enter the row %d \n",i);
-  for(j=0;j<row2;j++){
+  for(j=0;j<col2;j++){
     printf("enter the element \n");
     scanf("%d",&mat2[i][j]);
   }
